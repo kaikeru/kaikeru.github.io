@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kaikeru.com/categories/</loc>
+    <loc>https://kaikeru.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kaikeru.com/</loc>
+    <loc>https://kaikeru.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kaikeru.com/tags/</loc>
+    <loc>https://kaikeru.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
