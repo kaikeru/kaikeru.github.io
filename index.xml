@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kaikeru</title>
+    <title>kaikeru</title>
     <link>https://kaikeru.github.io/</link>
-    <description>Recent content on Kaikeru</description>
+    <description>Recent content on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Dec 2018 13:26:41 -0700</lastBuildDate>
     
 	<atom:link href="https://kaikeru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>A Test Post</title>
-      <link>https://kaikeru.github.io/post/test-post/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Nihongo Tools</title>
+      <link>https://kaikeru.github.io/project/nihongo/</link>
+      <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://kaikeru.github.io/post/test-post/</guid>
-      <description>Lorem Ipsum &amp;ldquo;Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit&amp;hellip;&amp;rdquo; &amp;ldquo;There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain&amp;hellip;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, felis eu malesuada aliquet, diam mauris hendrerit massa, a sagittis velit tortor sed tellus. Etiam sit amet metus et lorem eleifend iaculis.</description>
+      <guid>https://kaikeru.github.io/project/nihongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://kaikeru.github.io/resume/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaikeru.github.io/resume/</guid>
+      <description>Kyle Wagner Senior level software engineer with a specialty in DevOps.
+Work Experience Senior Software Engineer - Devops/Automation - Xpansiv November 2018 to Present
+ Lead automation engineer for deployment and QA pipelines. Specialist and evangelist for testing automation. Expert in Terraform and AWS Elastic Container Services  Director of Quality Engineering / Lead DevOps Engineer - RiskSense, Inc January 2018 to October 2018
+ Managed the QA team and automation team and acted as release coordinator.</description>
     </item>
     
   </channel>

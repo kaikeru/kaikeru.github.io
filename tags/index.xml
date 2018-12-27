@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Kaikeru</title>
+    <title>Tags on kaikeru</title>
     <link>https://kaikeru.github.io/tags/</link>
-    <description>Recent content in Tags on Kaikeru</description>
+    <description>Recent content in Tags on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Dec 2018 13:26:41 -0700</lastBuildDate>
     
 	<atom:link href="https://kaikeru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Java</title>
-      <link>https://kaikeru.github.io/tags/java/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Japanese</title>
+      <link>https://kaikeru.github.io/tags/japanese/</link>
+      <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://kaikeru.github.io/tags/java/</guid>
+      <guid>https://kaikeru.github.io/tags/japanese/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Test</title>
-      <link>https://kaikeru.github.io/tags/test/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Nihongo</title>
+      <link>https://kaikeru.github.io/tags/nihongo/</link>
+      <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://kaikeru.github.io/tags/test/</guid>
+      <guid>https://kaikeru.github.io/tags/nihongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日本語</title>
+      <link>https://kaikeru.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
+      <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
+      
+      <guid>https://kaikeru.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
       <description></description>
     </item>
     
