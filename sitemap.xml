@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.kaikeru.com/post/20181228-freestaticsite/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.kaikeru.com/project/nihongo/</loc>
     <lastmod>2018-12-27T13:26:41-07:00</lastmod>
   </url>
@@ -13,7 +18,31 @@
   </url>
   
   <url>
+    <loc>https://blog.kaikeru.com/tags/azure-pipelines/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.kaikeru.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kaikeru.com/tags/devops/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kaikeru.com/tags/github/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kaikeru.com/tags/hugo/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,6 +59,12 @@
   </url>
   
   <url>
+    <loc>https://blog.kaikeru.com/post/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.kaikeru.com/project/</loc>
     <lastmod>2018-12-27T13:26:41-07:00</lastmod>
     <priority>0</priority>
@@ -37,13 +72,13 @@
   
   <url>
     <loc>https://blog.kaikeru.com/tags/</loc>
-    <lastmod>2018-12-27T13:26:41-07:00</lastmod>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.kaikeru.com/</loc>
-    <lastmod>2018-12-27T13:26:41-07:00</lastmod>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

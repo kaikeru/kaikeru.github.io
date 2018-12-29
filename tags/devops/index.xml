@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on kaikeru</title>
+    <link>https://blog.kaikeru.com/tags/devops/</link>
+    <description>Recent content in Devops on kaikeru</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.kaikeru.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Free Website Hosting with Github and DevOps</title>
+      <link>https://blog.kaikeru.com/post/20181228-freestaticsite/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kaikeru.com/post/20181228-freestaticsite/</guid>
+      <description>Paying for website hosting is passé. You can easily host with Wordpress, Tumblr, or many other solutions. The downside to these free hosted services (applications, really) is free means you&amp;rsquo;re the product one way or another. Maybe they put adds on your blog, maybe they sell your data. Also, what happens if that company goes under? Where does your corner of the internet go?
+I&amp;rsquo;m a proponent of not relying on other services to build my content if I can help it.</description>
+    </item>
+    
+  </channel>
+</rss>

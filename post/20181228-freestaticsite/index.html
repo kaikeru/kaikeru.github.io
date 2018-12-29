@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Free Website Hosting with Github and DevOps</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #2A603B;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://blog.kaikeru.com/css/main.css">
+
+
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.51" />
+        
+
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Free Website Hosting with Github and DevOps</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="/resume/">Resume</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kaikeru/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/aKyleWagner/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kaikeru/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="/post/index.xml"><i class="fa fa-rss"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/20181228-freestaticsite/">Free Website Hosting with Github and DevOps</a></h4>
+    <h5>December 28, 2018</h5>
+    
+    <a href="https://blog.kaikeru.com//tags/azure-pipelines"><kbd class="item-tag">azure pipelines</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/github"><kbd class="item-tag">github</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/hugo"><kbd class="item-tag">hugo</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/devops"><kbd class="item-tag">devops</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<p>Paying for website hosting is passé. You can easily host with Wordpress, Tumblr, or many other solutions. The downside to these free hosted services (applications, really) is  free means you&rsquo;re the product one way or another. Maybe they put adds on your blog, maybe they sell your data. Also, what happens if that company goes under? Where does your corner of the internet go?</p>
+
+<p>I&rsquo;m a proponent of not relying on other services to build my content if I can help it. I want to build my site so if any service I rely on goes under, I can shift to a new service with minimal fuss. It is more work, but the payoff is worth it to have a permanent home on the internet.</p>
+
+<p>I created this site, the one you are reading, using free tools and hosting&hellip;or about as free as you can get on the internet without owing your soul to one specific company. Sure, some of the services might change so they are no longer free, but there are an abundant amount of alternatives available.</p>
+
+<p>I like to use static sites where possible rather than dynamic web applications. Static sites don&rsquo;t use runtimes, databases, or other nasty exploitable services. They are simple. <a href="https://gohugo.io">Hugo</a> is my static site generator of choice.</p>
+
+<p>Next, we need a good place to the static site. Free and ad free hosting is best. Luckily, if you don&rsquo;t mind having the entire site public, you can use <a href="https://pages.github.com">Github Pages</a>. This is a free hosting service from Github that allows for static sites or Jekyll sites. I&rsquo;m not a huge fan of Jekyll for Ruby reasons, but I&rsquo;m bias. If you are using Jekyll, you can pretty much skip the rest of this article since <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/">Github has you covered</a>. If you are using Hugo or some other static site generator, we need a good way to get the static site into the Github Pages repo. Because my background is in DevOps, let&rsquo;s add some (simple) <a href="https://en.wikipedia.org/wiki/CI/CD">CI/CD</a> using <a href="https://azure.microsoft.com/en-us/services/devops/pipelines/">Azure Pipelines</a>.</p>
+
+<h2 id="github">Github</h2>
+
+<h3 id="get-going-with-git">Get Going with Git</h3>
+
+<p>The basic container for our site, like all fun things, is a git repo. I&rsquo;m using <a href="https://github.com/">Github</a> for my cloud-based git hosting needs. Github&rsquo;s getting started with git tutorials are much better than anything I could write so start there. Sign up for Github and get started with git.</p>
+
+<p>As a side note, Github is free if you are open sourcing your code. If you insist on not doing that but still don&rsquo;t want to pay, take a look at <a href="https://gitlab.com">Gitlab</a>. In either case, I recommend using <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/">SSH key authentication</a>.</p>
+
+<h3 id="create-the-repo">Create the Repo</h3>
+
+<p>Once everything is setup on the git side, create the site&rsquo;s new repo on Github. Click the <code>+</code> button and select &lsquo;New Repository&rsquo;. Name the thing and finish the setup. Github will show instructions on how to clone that repo locally. If you are uncomfortable with command line interfaces, now&rsquo;s a great time to practice since this article won&rsquo;t use any GUIs outside of the Github and Azure websites.</p>
+
+<p>Open up the terminal. Navigate to the parent directory where the repo is to be cloned.</p>
+
+<pre><code class="language-bash"># Clone our sites repo.
+cd ~/repositories
+git clone git@github.com:kaikeru/blog.git
+</code></pre>
+
+<p>This gives us our slate in which to chisel out our blog.</p>
+
+<h2 id="hugo">Hugo</h2>
+
+<h3 id="setup">Setup</h3>
+
+<p><a href="https://gohugo.io">Hugo</a> is a great static website builder that&rsquo;s simple, fast, and fairly intuitive. There are a fair amount of good tutorials about how to setup hugo and to get started. Try out the official <a href="https://gohugo.io/getting-started/quick-start/">Quick Start</a> tutorial. We only care about having a functional compiled site directory that we can upload to Github Pages.</p>
+
+<p>After following the <em>Hugo Quick Start</em>, we should have a working Hugo executable to run on our new repository. We want to create a site in our repo directory. To do that, move into your repo and create a new hugo project with the following. Once complete, continue on with the <em>Hugo Quick Start</em>.</p>
+
+<pre><code class="language-bash"># Create a new Hugo blog in the cloned repo.
+cd ~/repositories/my-blog
+hugo new site .
+</code></pre>
+
+<p>Woo! We have a new site to work with! The directory structure should be similar to below.</p>
+
+<pre><code class="language-txt">.
+├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+├── data
+├── layouts
+├── static
+└── themes
+</code></pre>
+
+<h3 id="theme">Theme</h3>
+
+<p>A theme for Hugo may have been installed during the <em>Hugo Quick Start</em> tutorial, but I&rsquo;m using a forked version of the <a href="https://github.com/calintat/minimal">Minimal</a> theme. We want to add this theme as a submodule in our <code>themes/</code> directory.</p>
+
+<pre><code class="language-bash"># Add a theme for us to use.
+cd themes
+git submodule add git@github.com:kaikeru/minimal.git
+</code></pre>
+
+<p>Now our theme will be pulled when we clone the parent blog repo.</p>
+
+<p>Finally on the theme front, we need to make sure our <code>config.toml</code> has the right settings. The minimal config for the &ldquo;Minimal&rdquo; theme needs a few things. The main thing is a reference to the theme in the config.</p>
+
+<pre><code class="language-toml"># Our default config file.
+baseURL = &quot;http://localhost&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;kaikeru&quot;
+theme = &quot;minimal&quot;
+
+[author]
+  homepage = &quot;https://github.com/kaikeru&quot;
+  name = &quot;Kyle Wagner&quot;
+
+[params]
+  author = &quot;Kyle Wagner&quot;
+  description = &quot;Thoughts on happiness&quot;
+  githubUsername = &quot;kaikeru&quot;
+  accent = &quot;#2A603B&quot;
+  showBorder = true
+  backgroundColor = &quot;white&quot;
+  font = &quot;Raleway&quot; # should match the name on Google Fonts!
+  highlight = true
+  highlightStyle = &quot;solarized-dark&quot;
+  highlightLanguages = [&quot;java&quot;, &quot;python&quot;, &quot;yaml&quot;]
+
+[[menu.main]]
+  url = &quot;/&quot;
+  name = &quot;Home&quot;
+  weight = 1
+
+[[menu.main]]
+  url = &quot;/post/&quot;
+  name = &quot;Posts&quot;
+  weight = 2
+</code></pre>
+
+<h3 id="content">Content</h3>
+
+<p>We want to add some simple content if it doesn&rsquo;t already have some.</p>
+
+<pre><code class="language-bash"># Create a new post with content.
+hugo new post/test.md
+echo &quot;I'm a test&quot; &gt;&gt; content/post/test.md
+</code></pre>
+
+<h3 id="start-the-test-server">Start the Test Server</h3>
+
+<p>Everything for Hugo should be ready. Testing this is easy.</p>
+
+<pre><code class="language-bash"># Start the Hugo test server.
+ hugo server -D
+</code></pre>
+
+<p>This will output the server address. Most likely will be <code>http://localhost:1313</code>. Paste that into your browser, and you should see a page similar the home page of this blog.</p>
+
+<p>The run server action compiles the site as well. The static content now lives in the <code>public/</code> directory. If we want to compile the site without the server, we just need to run the <code>hugo</code> command at the top level of our repo.</p>
+
+<p>With the static content built, the content can be used to populate our Github Pages site. Before we do that, let&rsquo;s do some git housekeeping by adding the <code>public/</code> folder to our <code>.gitignore</code> so the folder doesn&rsquo;t accidentally creep into our repo. Create a <code>.gitignore</code> file if it doesn&rsquo;t exist and add a line to ignore the <code>public/</code> directory.</p>
+
+<pre><code class="language-.gitignore"># Ignore the public folder
+public/
+</code></pre>
+
+<h2 id="github-pages">Github Pages</h2>
+
+<p>With Hugo working, we have some content to put in our Github Pages site. Pages works on the premise we have a repository on Github named with the convention <code>&lt;github-user&gt;.github.io</code>. For my page I need a repo named <code>kaikeru.github.io</code>. We follow the exact same steps as creating the blog repo. We want to clone this repo as well but not into the blog repo. Put it in the <code>~/repositories</code> equivalent.</p>
+
+<p>The content from the Hugo site needs to be placed in the Github Pages repo. This article uses <code>rsync</code>, but any other way to copy all the files is fine.</p>
+
+<pre><code class="language-bash"># Copy all static content to the Github Pages repo.
+cd ~/repositories/my-blog
+rsync -av public/* ~/repositories/kaikeru.github.io
+</code></pre>
+
+<p>The repo is ready for us to commit all the files to the repo.</p>
+
+<pre><code class="language-bash"># Add files to the commit.
+cd ~/repositories/kaikeru.github.io
+git add .
+git commit -m &quot;Add static content&quot;
+</code></pre>
+
+<p>Our site is ready and primed for the public world. Push the commit up to Github and we should see the site at our Github Pages URL. The URL, for me, is <a href="https://kaikeru.github.io">https://kaikeru.github.io</a>.</p>
+
+<pre><code class="language-bash"># From the Github Pages repo.
+git push origin master
+</code></pre>
+
+<h2 id="add-some-devops">Add Some DevOps</h2>
+
+<p>This entire process works just fine for a simple blog, but like any task, if we do it more than twice, then automation of that task is in order.</p>
+
+<p>Let&rsquo;s break down the task into a pipeline that can be used to as a basis for our automation. The tasks that are always the same happen after we finish creating new content for the site.</p>
+
+<p><em>Repeated Tasks</em></p>
+
+<ol>
+<li>Compile the site with the <code>hugo</code> command.</li>
+<li>Copy the static files to our Github Pages repo.</li>
+<li>Add files to commit.</li>
+<li>Commit the files.</li>
+<li>Push commit to Github.</li>
+</ol>
+
+<p>These steps never change.</p>
+
+<h3 id="azure-pipeline">Azure Pipeline</h3>
+
+<p>It is common to use CI/CD tools to automate repetitive tasks and deploy that code to a production environment. A few popular tools are Gitlab CI/CD, Travis CI, Jenkins, AWS Pipelines, and Azure Pipelines. Most of these have incredibly good integrations with Github and will all do the job well. I choose Azure Pipelines more as an exercise in learning a cool new tool for myself than any other reason. One of the plus sides is Azure Pipelines are free if your project is open source. Gitlab and Travis have this benefit as well.</p>
+
+<h4 id="setup-pipeline-add-on">Setup Pipeline Add-On</h4>
+
+<p>First thing we need to do is add a trigger to our build process. We want to trigger whenever a commit goes into the <code>master</code> branch on our blog repo. Github makes this easy to do through the <a href="https://github.com/marketplace/azure-pipelines">Azure Pipeline add-on</a> available in the Github Marketplace. Add this to your account using the free plan and that&rsquo;s pretty much it for setting up the pipeline. A pipeline will now trigger if we have an <code>azure-pipelines.yml</code> in our repo. Let&rsquo;s add that.</p>
+
+<h4 id="create-pipeline-configuration">Create Pipeline Configuration</h4>
+
+<p>The <code>azure-pipelines.yml</code> dictates how the pipeline works. Each step needed for the build and deployment is described in that file.</p>
+
+<pre><code class="language-yaml"># A simple pipeline for Hugo builds in Azure.
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+variables:
+  hugoUrl: https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.tar.gz
+  hugoTar: /tmp/hugo.tgz
+
+steps:
+- script: |
+    wget -q -O $(hugoTar) $(hugoUrl)
+    tar xzvf $(hugoTar)
+    sudo rsync -av hugo /usr/local/bin/
+  displayName: 'Install Hugo'
+- script: |
+    hugo
+  displayName: 'Build Hugo Blog'
+- script: |
+    git config --global user.email &quot;devops@kaikeru.com&quot;
+    git config --global user.name &quot;Azure Build&quot;
+    git clone https://$(github.username):$(github.token)@github.com/kaikeru/kaikeru.github.io.git /tmp/blog
+    rm -rf /tmp/blog/*
+    rsync -av public/* /tmp/blog/
+    cd /tmp/blog
+    git add .
+    git commit -m 'Autocommit from $(Build.DefinitionName) $(Build.BuildNumber)'
+    git push origin
+  displayName: 'Commit to kaikeru.github.io'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+</code></pre>
+
+<p>The whole pipeline is broken down into three steps and uses an Ubuntu 16.04 virtual machine image as its base. Going through the steps, we start with the installation of Hugo on the VM.</p>
+
+<pre><code class="language-yaml">- script: |
+    wget -q -O $(hugoTar) $(hugoUrl)
+    tar xzvf $(hugoTar)
+    sudo rsync -av hugo /usr/local/bin/
+  displayName: 'Install Hugo'
+</code></pre>
+
+<p>The first thing we need to do is get the Hugo image. The tarball is unpacked and installed into the <code>/usr/local/bin</code> directory so that the Hugo binary is picked up on the <code>PATH</code> by the shell.</p>
+
+<pre><code class="language-yaml">- script: |
+    hugo
+  displayName: 'Build Hugo Blog'
+</code></pre>
+
+<p>Now that we have the Hugo binary available to our scripts, we run the <code>hugo</code> command to compile the static website into the <code>public/</code> directory.</p>
+
+<pre><code class="language-yaml">- script: |
+    git config --global user.email &quot;devops@kaikeru.com&quot;
+    git config --global user.name &quot;Azure Build&quot;
+    git clone https://$(github.username):$(github.token)@github.com/kaikeru/kaikeru.github.io.git /tmp/blog
+    rm -rf /tmp/blog/*
+    rsync -av public/* /tmp/blog/
+    cd /tmp/blog
+    git add .
+    git commit -m 'Autocommit from $(Build.DefinitionName) $(Build.BuildNumber)'
+    git push origin
+  displayName: 'Commit to kaikeru.github.io'
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+</code></pre>
+
+<p>The final step seems like it does a lot but most of it&rsquo;s fluff for git. We are mainly pushing our new static site to the Github Pages repo.</p>
+
+<p>Easily missable parts are <code>$(github.username)</code> and <code>$(github.token)</code> in the clone action. Github allows us to create an OAuth token so we can clone and push to the repository. Navigate to <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a> on Github to create the token. It will need the <code>public_repo</code> OAuth scope. Save this token in a secure place. <strong>You can&rsquo;t see it again on Github once you leave the page.</strong></p>
+
+<p>Both <code>github.username</code> and <code>github.token</code> must be entered on the Azure Pipeline site. Take a look at how to <a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=vsts&amp;tabs=designer%2Cbatch#secret-variables">add secret variables</a> to your pipeline. You may need to have your pipeline run once (and fail) before you&rsquo;re given the option to add the variables. The names of the variables should be <code>github.username</code> and <code>github.token</code> with their corresponding values.</p>
+
+<p>Notice that the last line is the <code>condition</code> on which this step will run. The triggering conditions are if the previous steps succeed and the branch for this build is <code>master</code>. This means any pull requests or other branches will not push their build results to the Github Pages repo.</p>
+
+<p>We need to commit the <code>azure-pipelines.yml</code> to the repo and push the commit up. If everything is done properly, we can follow the build on Github&rsquo;s branches page for your blog&rsquo;s repo.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The current site you are reading is built on the steps outlined above. There are a few other modifications to allow for some better performance. <a href="https://www.cloudflare.com/">Cloudflare&rsquo;s</a> caching, SSL, and DNS provide more stability under load or attacks. That is probably overkill, but it&rsquo;s also free to use. I&rsquo;ve also aliased the kaikeru.github.io to blog.kaikeru.com using a CNAME entry.</p>
+
+<p>I hope this was helpful. Please contact me on  Twitter (see the link in the header) if you have any questions or suggestions.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/kaikeru/minimal">Forked Minimal</a></p>
+
+        </footer>
+
+    </body>
+
+</html>
+
