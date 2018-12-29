@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kaikeru</title>
-    <link>https://kaikeru.github.io/</link>
+    <link>https://blog.kaikeru.com/</link>
     <description>Recent content on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Dec 2018 13:26:41 -0700</lastBuildDate>
     
-	<atom:link href="https://kaikeru.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kaikeru.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nihongo Tools</title>
-      <link>https://kaikeru.github.io/project/nihongo/</link>
+      <link>https://blog.kaikeru.com/project/nihongo/</link>
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://kaikeru.github.io/project/nihongo/</guid>
+      <guid>https://blog.kaikeru.com/project/nihongo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resume</title>
-      <link>https://kaikeru.github.io/resume/</link>
+      <link>https://blog.kaikeru.com/resume/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kaikeru.github.io/resume/</guid>
+      <guid>https://blog.kaikeru.com/resume/</guid>
       <description>Kyle Wagner Senior level software engineer with a specialty in DevOps.
 Work Experience Senior Software Engineer - Devops/Automation - Xpansiv November 2018 to Present
  Lead automation engineer for deployment and QA pipelines. Specialist and evangelist for testing automation. Expert in Terraform and AWS Elastic Container Services  Director of Quality Engineering / Lead DevOps Engineer - RiskSense, Inc January 2018 to October 2018

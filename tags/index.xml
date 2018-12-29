@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on kaikeru</title>
-    <link>https://kaikeru.github.io/tags/</link>
+    <link>https://blog.kaikeru.com/tags/</link>
     <description>Recent content in Tags on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Dec 2018 13:26:41 -0700</lastBuildDate>
     
-	<atom:link href="https://kaikeru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kaikeru.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Japanese</title>
-      <link>https://kaikeru.github.io/tags/japanese/</link>
+      <link>https://blog.kaikeru.com/tags/japanese/</link>
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://kaikeru.github.io/tags/japanese/</guid>
+      <guid>https://blog.kaikeru.com/tags/japanese/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nihongo</title>
-      <link>https://kaikeru.github.io/tags/nihongo/</link>
+      <link>https://blog.kaikeru.com/tags/nihongo/</link>
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://kaikeru.github.io/tags/nihongo/</guid>
+      <guid>https://blog.kaikeru.com/tags/nihongo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>日本語</title>
-      <link>https://kaikeru.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
+      <link>https://blog.kaikeru.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://kaikeru.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
+      <guid>https://blog.kaikeru.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
       <description></description>
     </item>
     
