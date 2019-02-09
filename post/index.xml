@@ -6,10 +6,20 @@
     <description>Recent content in Posts on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Feb 2019 14:50:21 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.kaikeru.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JLPT</title>
+      <link>https://blog.kaikeru.com/post/20190208-jlpt/</link>
+      <pubDate>Fri, 08 Feb 2019 14:50:21 -0700</pubDate>
+      
+      <guid>https://blog.kaikeru.com/post/20190208-jlpt/</guid>
+      <description>This is hard for me to admit, but I&amp;rsquo;ve failed at hitting the same goal every year for the last 10 years. I want to pass the Japanese Language Proficiency Test (JLPT). The test is broken into levels N5 -&amp;gt; N1. Each level tests your reading and listening skills. N5 is basic Japanese where N1 is hard enough to make fluent speakers second guess their education.
+The test is a bureaucratic take on Japanese language and your mastery over it.</description>
+    </item>
     
     <item>
       <title>Free Website Hosting with Github and DevOps</title>
