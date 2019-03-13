@@ -41,7 +41,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script> 
 
     <script>hljs.initHighlightingOnLoad();</script>
 
@@ -168,7 +168,7 @@
 
 <p>The ideal state of our build is &ldquo;reproducible state&rdquo;. A successful build that is rerun should succeed with the same output. A build that changes between runs of the same git commit and no upstream changes means someone (or an upstream) messed up. This is the beauty of Docker builds, they are immutable unless you try really hard. The steps in a <code>Dockerfile</code> run in the same order every time. Wonderful.</p>
 
-<p>The biggest boon is the system that runs the build doesn&rsquo;t care what language or packages a build needs. The Docker build handles that via <code>Dockerfile</code> instead at the encompassing OS. There are no tricks to create virtual environments like in Python. No race conditions on which packages are installed by different builds. Everything is self contained and it&rsquo;s all way faster than spinning up a fresh dedicated VM.</p>
+<p>The biggest boon is the system that runs the build doesn&rsquo;t care what language or packages a build needs. The Docker build handles that via <code>Dockerfile</code> instead at the encompassing OS. There are no tricks to create virtual environments like in Python. No race conditions on which packages are installed by different builds. Everything is self contained and way faster than spinning up a fresh dedicated VM.</p>
 
 <p>The glaring question one may ask, &ldquo;Why not use the already built in Docker runner environments that CI solutions like Jenkins support?&rdquo; Yes, that&rsquo;s a solution, but it doesn&rsquo;t solve another problem.</p>
 
@@ -231,7 +231,7 @@ COPY ./src/* /app/src
 RUN mvn build
 </code></pre>
 
-<p>In this case, the multi-stage build is basically a glorified maven cache. The beauty of this, though, is that all language builds support this type of artifact storage. No matter if you&rsquo;re building C++ or Python, this technique works. You get the benefits of tagging, and version control via a Docker repo.</p>
+<p>In this case, the multi-stage build is basically a glorified Maven cache. The beauty of this, though, is that all language builds support this type of artifact storage. No matter if you&rsquo;re building C++ or Python, this technique works. You get the benefits of tagging, and version control via a Docker repo.</p>
 
 <h2 id="the-downsides">The Downsides</h2>
 
