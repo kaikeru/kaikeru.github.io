@@ -225,9 +225,9 @@ FROM openjdk as builder
 RUN mkdir /app
 WORKDIR /app
 
-
 COPY --from lib mavencache/* mavencache/*
 COPY ./src/* /app/src
+
 RUN mvn build
 </code></pre>
 
