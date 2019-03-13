@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Docker as a CI Build System</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #1cacd7;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://blog.kaikeru.com/css/main.css">
+
+
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.51" />
+        
+
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Docker as a CI Build System</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="/resume/">Resume</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kaikeru/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/aKyleWagner/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kaikeru/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/20190313-usedockerbuild/">Docker as a CI Build System</a></h4>
+    <h5>March 13, 2019</h5>
+    
+    <a href="https://blog.kaikeru.com//tags/devops"><kbd class="item-tag">devops</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/docker"><kbd class="item-tag">docker</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/continuous-integration"><kbd class="item-tag">continuous integration</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/ci"><kbd class="item-tag">ci</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/jenkins"><kbd class="item-tag">jenkins</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<p>In my current position, we define continuous integration builds for all our projects in a <code>Dockerfile</code>. For us, Docker provides a set of guarantees that are perfect for CI.</p>
+
+<ul>
+<li>Docker builds are reproducible.</li>
+<li>Docker is runnable on any system that supports Docker.</li>
+<li>Docker produces universal artifacts.</li>
+</ul>
+
+<h2 id="builds-are-reproducible-everywhere">Builds are Reproducible Everywhere</h2>
+
+<p>A standard Jenkins build runs directly on the system. It&rsquo;s nothing against Jenkins, but if you are just building on a raw node, the underlying instance will have discrepancies. This could be security patch, library versions, or even OS versions. For us, a runner might be Ubuntu or OSX. This means out of date local packages cause build failures. Don&rsquo;t get me wrong, that&rsquo;s a worst case scenario. Worst case always happens in DevOps.</p>
+
+<p>The ideal state of our build is &ldquo;reproducible state&rdquo;. A successful build that is rerun should succeed with the same output. A build that changes between runs of the same git commit and no upstream changes means someone (or an upstream) messed up. This is the beauty of Docker builds, they are immutable unless you try really hard. The steps in a <code>Dockerfile</code> run in the same order every time. Wonderful.</p>
+
+<p>The biggest boon is the system that runs the build doesn&rsquo;t care what language or packages a build needs. The Docker build handles that via <code>Dockerfile</code> instead at the encompassing OS. There are no tricks to create virtual environments like in Python. No race conditions on which packages are installed by different builds. Everything is self contained and it&rsquo;s all way faster than spinning up a fresh dedicated VM.</p>
+
+<p>The glaring question one may ask, &ldquo;Why not use the already built in Docker runner environments that CI solutions like Jenkins support?&rdquo; Yes, that&rsquo;s a solution, but it doesn&rsquo;t solve another problem.</p>
+
+<h2 id="run-builds-anywhere">Run Builds Anywhere</h2>
+
+<p>Running a build anywhere is a dream chased by many a developer. If we guarantee that if the build works on a dev system will work in production, that&rsquo;s gold. Docker is a solution to the problem. A Docker build that works on Windows will work on a Mac. Sure, it&rsquo;s trickery if you look too hard at the man behind the curtain (the VM running Linux). Devs usually don&rsquo;t care about that. When a build and tests succeed on their machine but fails on the build box, they are pissed. So why not let them run the exact same process on their machine that the Jenkins box uses?</p>
+
+<p>This portability provides robust builds and increased developer productivity. Jenkins pipeline files are opaque at best so we don&rsquo;t expect devs to learn the syntax. DevOps doesn&rsquo;t want to write a new Jenkins file for every project either. Rather, we encourage each team write their project&rsquo;s <code>Dockerfile</code>. Once the hump of Dockerphobia is surmounted, the teams are more productive since they don&rsquo;t wait on DevOps for their build changes. They don&rsquo;t even have to trigger their Jenkins build to see if it will fail. Less waste overall.</p>
+
+<h2 id="docker-images-as-an-artifact">Docker Images as an Artifact</h2>
+
+<p>This is how we used to do Java builds.</p>
+
+<ol>
+<li>The <code>cool-java-lib</code> repo has new code in master.</li>
+<li>Jenkins builds the <code>cool-java-lib</code> artifact.</li>
+<li>Jenkins pushes the <code>cool-java-lib</code> to our Nexus repository.</li>
+<li>Trigger downstream builds for <code>cool-java-lib</code>.</li>
+<li>Jenkins starts <code>alright-java-project</code> build.</li>
+<li>Build pulls <code>cool-java-lib</code> artifact from Nexus.</li>
+<li>Build of <code>alright-java-project</code> finishes.</li>
+<li>Build <code>alright-java-project</code> Docker.</li>
+<li>Push <code>alright-java-project</code> Docker to repository.</li>
+</ol>
+
+<p>All of that is pretty standard. The steps do have repetition of pulling and pushing to Nexus. If use Docker for the builds, the steps change slightly.</p>
+
+<p>Building the library would look like this:</p>
+
+<ol>
+<li>The <code>cool-java-lib</code> repo has new code in master.</li>
+<li>Jenkins builds the <code>cool-java-lib</code> Docker.</li>
+<li>Push <code>cool-java-lib</code> to our Docker repository.</li>
+<li>Jenkins pushes the <code>cool-java-lib</code> to our Nexus repository (used for local development).</li>
+<li>Trigger downstream builds for <code>cool-java-lib</code>.</li>
+</ol>
+
+<p>This is similar to what we did before but with a Docker build and push. Why? It&rsquo;s now more complicated, yet this has one major benefit over the previous solution: Docker caching. Docker caching happens when at pulls and from builds. A bunch of downstream builds happening on the same build box can all use that locally cached Docker. This is great for libraries as they don&rsquo;t often change in the scheme of things. On average, our build times dropped by a few minutes due to caching.</p>
+
+<p>The project build:</p>
+
+<ol>
+<li>Jenkins starts <code>alright-java-project</code> build.</li>
+<li>Build pulls <code>cool-java-lib</code> Docker from repository (or cached version).</li>
+<li>Build of <code>alright-java-project</code> using Docker finishes.</li>
+<li>Push <code>alright-java-project</code> Docker to repository.</li>
+</ol>
+
+<p>Multi-stage Docker builds allow the <code>alright-java-project</code> build to utilize the <code>cool-java-lib</code> Docker. The <code>Dockerfile</code> would probably look like the following:</p>
+
+<pre><code class="language-Dockerfile">FROM cool-java-lib:master as lib
+FROM openjdk as builder
+
+RUN mkdir /app
+WORKDIR /app
+
+
+COPY --from lib mavencache/* mavencache/*
+COPY ./src/* /app/src
+RUN mvn build
+</code></pre>
+
+<p>In this case, the multi-stage build is basically a glorified maven cache. The beauty of this, though, is that all language builds support this type of artifact storage. No matter if you&rsquo;re building C++ or Python, this technique works. You get the benefits of tagging, and version control via a Docker repo.</p>
+
+<h2 id="the-downsides">The Downsides</h2>
+
+<p>There are downsides to using Docker builds for CI and not mentioning them is biased. The big one is the use of Docker itself. Containers are great things, but they can be heavier than a cached library. This may not be true in some sense on the repository level since we can reuse layers. You can&rsquo;t do that in Maven repos. This caching requires a good knowledge of how Docker build layers work.</p>
+
+<p>The intimate understanding of how Docker to builds their software is an entry barrier to developers. Dockers often seem like this magical tech that DevOps community peddles. Because of this, there is a lot more upfront work to get devs up to speed on Dockers but the tail is usually a lot better in our experience.</p>
+
+<h2 id="reality">Reality</h2>
+
+<p>We&rsquo;ve been using Docker builds like this for a few months and it&rsquo;s made life a lot easier. Everyone has a much better idea of how projects build and exactly what went wrong. Is this for everyone? No, nothing is in DevOps. This works for our use case as we rely heavily on container orchestration systems and have that expertise. In the cases we are not using containers to run a system, we do have to shoehorn this build style in. This is a minority and the benefits are great for now. Like all things in DevOps, we will have a different philosophy in 6 months.</p>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/20181228-freestaticsite/">Free Website Hosting with Github and DevOps</a></h4>
+    <h5>December 28, 2018</h5>
+    
+    <a href="https://blog.kaikeru.com//tags/azure-pipelines"><kbd class="item-tag">azure pipelines</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/github"><kbd class="item-tag">github</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/hugo"><kbd class="item-tag">hugo</kbd></a>
+    
+    <a href="https://blog.kaikeru.com//tags/devops"><kbd class="item-tag">devops</kbd></a>
+    
+
+</div>
+ 
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/kaikeru/minimal">Forked Minimal</a></p>
+
+        </footer>
+
+    </body>
+
+</html>
+

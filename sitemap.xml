@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.kaikeru.com/post/20190313-usedockerbuild/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.kaikeru.com/post/20190208-jlpt/</loc>
     <lastmod>2019-02-08T14:50:21-07:00</lastmod>
   </url>
@@ -34,8 +39,26 @@
   </url>
   
   <url>
+    <loc>https://blog.kaikeru.com/tags/ci/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kaikeru.com/tags/continuous-integration/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.kaikeru.com/tags/devops/</loc>
-    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kaikeru.com/tags/docker/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,6 +81,12 @@
   </url>
   
   <url>
+    <loc>https://blog.kaikeru.com/tags/jenkins/</loc>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.kaikeru.com/tags/nihongo/</loc>
     <lastmod>2018-12-27T13:26:41-07:00</lastmod>
     <priority>0</priority>
@@ -65,7 +94,7 @@
   
   <url>
     <loc>https://blog.kaikeru.com/post/</loc>
-    <lastmod>2019-02-08T14:50:21-07:00</lastmod>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +112,7 @@
   
   <url>
     <loc>https://blog.kaikeru.com/</loc>
-    <lastmod>2019-02-08T14:50:21-07:00</lastmod>
+    <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

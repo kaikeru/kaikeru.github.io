@@ -21,11 +21,38 @@
     </item>
     
     <item>
+      <title>Ci</title>
+      <link>https://blog.kaikeru.com/tags/ci/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kaikeru.com/tags/ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Integration</title>
+      <link>https://blog.kaikeru.com/tags/continuous-integration/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kaikeru.com/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Devops</title>
       <link>https://blog.kaikeru.com/tags/devops/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.kaikeru.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://blog.kaikeru.com/tags/docker/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kaikeru.com/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -53,6 +80,15 @@
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
       <guid>https://blog.kaikeru.com/tags/japanese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://blog.kaikeru.com/tags/jenkins/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kaikeru.com/tags/jenkins/</guid>
       <description></description>
     </item>
     
