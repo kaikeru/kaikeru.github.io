@@ -18,7 +18,7 @@
       
       <guid>https://blog.kaikeru.com/post/20190313-usedockerbuild/</guid>
       <description>In my current position, we define continuous integration builds for all our projects in a Dockerfile. For us, Docker provides a set of guarantees that are perfect for CI.
- Docker builds are reproducible. Docker is runnable on any system that supports Docker. Docker produces universal artifacts.  Builds are Reproducible Everywhere A standard Jenkins build runs directly on the system. It&amp;rsquo;s nothing against Jenkins, but if you are just building on a raw node, the underlying instance will have discrepancies.</description>
+ Docker builds are reproducible. Docker is available on every major OS. Docker produces universal artifacts.  Builds are Reproducible Everywhere A standard Jenkins build runs directly on the system. It&amp;rsquo;s nothing against Jenkins, but if you are just building on a raw node, the underlying instance will have discrepancies.</description>
     </item>
     
   </channel>
