@@ -6,10 +6,19 @@
     <description>Recent content on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.kaikeru.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reading List</title>
+      <link>https://blog.kaikeru.com/reading-list/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kaikeru.com/reading-list/</guid>
+      <description>Software Engineering  Clean Code by Robert C. Martin Refactoring by Martin Fowler Test Driven Development: By Example by Kent Beck  DevOps  Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations by Nicole Forsgren PhD, Jez Humble, Gene Kim The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations by Gene Kim, Jez Humble, Patrick Debois, John Willis, John Allspaw The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford Site Reliability Engineering: How Google Runs Production Systems by Niall Richard Murphy, Betsy Beyer, Chris Jones, Jennifer Petoff The Site Reliability Workbook: Practical Ways to Implement SRE by Betsy Beyer, Niall Richard Murphy, David K.</description>
+    </item>
     
     <item>
       <title>Docker as a CI Build System</title>
