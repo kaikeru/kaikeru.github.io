@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Continuous Integration on kaikeru</title>
-    <link>https://blog.kaikeru.com/tags/continuous-integration/</link>
+    <link>https://www.kaikeru.com/tags/continuous-integration/</link>
     <description>Recent content in Continuous Integration on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.kaikeru.com/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.kaikeru.com/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Docker as a CI Build System</title>
-      <link>https://blog.kaikeru.com/post/20190313-usedockerbuild/</link>
+      <link>https://www.kaikeru.com/post/20190313-usedockerbuild/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/post/20190313-usedockerbuild/</guid>
+      <guid>https://www.kaikeru.com/post/20190313-usedockerbuild/</guid>
       <description>In my current position, we define continuous integration builds for all our projects in a Dockerfile. For us, Docker provides a set of guarantees that are perfect for CI.
  Docker builds are reproducible. Docker is available on every major OS. Docker produces universal artifacts.  Builds are Reproducible Everywhere A standard Jenkins build runs directly on the system. It&amp;rsquo;s nothing against Jenkins, but if you are just building on a raw node, the underlying instance will have discrepancies.</description>
     </item>

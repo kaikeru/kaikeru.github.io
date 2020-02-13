@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on kaikeru</title>
-    <link>https://blog.kaikeru.com/tags/</link>
+    <link>https://www.kaikeru.com/tags/</link>
     <description>Recent content in Tags on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.kaikeru.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.kaikeru.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Azure Pipelines</title>
-      <link>https://blog.kaikeru.com/tags/azure-pipelines/</link>
+      <link>https://www.kaikeru.com/tags/azure-pipelines/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/azure-pipelines/</guid>
+      <guid>https://www.kaikeru.com/tags/azure-pipelines/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ci</title>
-      <link>https://blog.kaikeru.com/tags/ci/</link>
+      <link>https://www.kaikeru.com/tags/ci/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/ci/</guid>
+      <guid>https://www.kaikeru.com/tags/ci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Continuous Integration</title>
-      <link>https://blog.kaikeru.com/tags/continuous-integration/</link>
+      <link>https://www.kaikeru.com/tags/continuous-integration/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/continuous-integration/</guid>
+      <guid>https://www.kaikeru.com/tags/continuous-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Devops</title>
-      <link>https://blog.kaikeru.com/tags/devops/</link>
+      <link>https://www.kaikeru.com/tags/devops/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/devops/</guid>
+      <guid>https://www.kaikeru.com/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://blog.kaikeru.com/tags/docker/</link>
+      <link>https://www.kaikeru.com/tags/docker/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/docker/</guid>
+      <guid>https://www.kaikeru.com/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>https://blog.kaikeru.com/tags/github/</link>
+      <link>https://www.kaikeru.com/tags/github/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/github/</guid>
+      <guid>https://www.kaikeru.com/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://blog.kaikeru.com/tags/hugo/</link>
+      <link>https://www.kaikeru.com/tags/hugo/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/hugo/</guid>
+      <guid>https://www.kaikeru.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Japanese</title>
-      <link>https://blog.kaikeru.com/tags/japanese/</link>
+      <link>https://www.kaikeru.com/tags/japanese/</link>
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/japanese/</guid>
+      <guid>https://www.kaikeru.com/tags/japanese/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jenkins</title>
-      <link>https://blog.kaikeru.com/tags/jenkins/</link>
+      <link>https://www.kaikeru.com/tags/jenkins/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/jenkins/</guid>
+      <guid>https://www.kaikeru.com/tags/jenkins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nihongo</title>
-      <link>https://blog.kaikeru.com/tags/nihongo/</link>
+      <link>https://www.kaikeru.com/tags/nihongo/</link>
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/nihongo/</guid>
+      <guid>https://www.kaikeru.com/tags/nihongo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>日本語</title>
-      <link>https://blog.kaikeru.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
+      <link>https://www.kaikeru.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://blog.kaikeru.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
+      <guid>https://www.kaikeru.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
       <description></description>
     </item>
     

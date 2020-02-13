@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kaikeru</title>
-    <link>https://blog.kaikeru.com/</link>
+    <link>https://www.kaikeru.com/</link>
     <description>Recent content on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.kaikeru.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.kaikeru.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reading List</title>
-      <link>https://blog.kaikeru.com/reading-list/</link>
+      <link>https://www.kaikeru.com/reading-list/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/reading-list/</guid>
+      <guid>https://www.kaikeru.com/reading-list/</guid>
       <description>Software Engineering  Clean Code by Robert C. Martin Refactoring by Martin Fowler Test Driven Development: By Example by Kent Beck  DevOps  Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations by Nicole Forsgren PhD, Jez Humble, Gene Kim The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations by Gene Kim, Jez Humble, Patrick Debois, John Willis, John Allspaw The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford Site Reliability Engineering: How Google Runs Production Systems by Niall Richard Murphy, Betsy Beyer, Chris Jones, Jennifer Petoff The Site Reliability Workbook: Practical Ways to Implement SRE by Betsy Beyer, Niall Richard Murphy, David K.</description>
     </item>
     
     <item>
       <title>Docker as a CI Build System</title>
-      <link>https://blog.kaikeru.com/post/20190313-usedockerbuild/</link>
+      <link>https://www.kaikeru.com/post/20190313-usedockerbuild/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/post/20190313-usedockerbuild/</guid>
+      <guid>https://www.kaikeru.com/post/20190313-usedockerbuild/</guid>
       <description>In my current position, we define continuous integration builds for all our projects in a Dockerfile. For us, Docker provides a set of guarantees that are perfect for CI.
  Docker builds are reproducible. Docker is available on every major OS. Docker produces universal artifacts.  Builds are Reproducible Everywhere A standard Jenkins build runs directly on the system. It&amp;rsquo;s nothing against Jenkins, but if you are just building on a raw node, the underlying instance will have discrepancies.</description>
     </item>
     
     <item>
       <title>JLPT</title>
-      <link>https://blog.kaikeru.com/post/20190208-jlpt/</link>
+      <link>https://www.kaikeru.com/post/20190208-jlpt/</link>
       <pubDate>Fri, 08 Feb 2019 14:50:21 -0700</pubDate>
       
-      <guid>https://blog.kaikeru.com/post/20190208-jlpt/</guid>
+      <guid>https://www.kaikeru.com/post/20190208-jlpt/</guid>
       <description>This is hard for me to admit, but I&amp;rsquo;ve failed at hitting the same goal every year for the last 10 years. I want to pass the Japanese Language Proficiency Test (JLPT). The test is broken into levels N5 -&amp;gt; N1. Each level tests your reading and listening skills. N5 is basic Japanese where N1 is hard enough to make fluent speakers second guess their education.
 The test is a bureaucratic take on Japanese language and your mastery over it.</description>
     </item>
     
     <item>
       <title>Free Website Hosting with Github and DevOps</title>
-      <link>https://blog.kaikeru.com/post/20181228-freestaticsite/</link>
+      <link>https://www.kaikeru.com/post/20181228-freestaticsite/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/post/20181228-freestaticsite/</guid>
+      <guid>https://www.kaikeru.com/post/20181228-freestaticsite/</guid>
       <description>Paying for website hosting is passé. You can easily host with Wordpress, Tumblr, or many other solutions. The downside to these free hosted services (applications, really) is free means you&amp;rsquo;re the product one way or another. Maybe they put adds on your blog, maybe they sell your data. Also, what happens if that company goes under? Where does your corner of the internet go?
 I&amp;rsquo;m a proponent of not relying on other services to build my content if I can help it.</description>
     </item>
     
     <item>
       <title>Nihongo Tools</title>
-      <link>https://blog.kaikeru.com/project/nihongo/</link>
+      <link>https://www.kaikeru.com/project/nihongo/</link>
       <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
       
-      <guid>https://blog.kaikeru.com/project/nihongo/</guid>
+      <guid>https://www.kaikeru.com/project/nihongo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resume</title>
-      <link>https://blog.kaikeru.com/resume/</link>
+      <link>https://www.kaikeru.com/resume/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.kaikeru.com/resume/</guid>
+      <guid>https://www.kaikeru.com/resume/</guid>
       <description>Kyle Wagner Senior level software engineer with a specialty in DevOps.
 Work Experience Senior Software Engineer - Devops/Automation - Xpansiv November 2018 to Present
  Lead automation engineer for deployment and QA pipelines. Specialist and evangelist for testing automation. Expert in Terraform and AWS Elastic Container Services  Director of Quality Engineering / Lead DevOps Engineer - RiskSense, Inc January 2018 to October 2018

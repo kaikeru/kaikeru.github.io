@@ -3,126 +3,126 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.kaikeru.com/reading-list/</loc>
+    <loc>https://www.kaikeru.com/reading-list/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/post/20190313-usedockerbuild/</loc>
+    <loc>https://www.kaikeru.com/post/20190313-usedockerbuild/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/post/20190208-jlpt/</loc>
+    <loc>https://www.kaikeru.com/post/20190208-jlpt/</loc>
     <lastmod>2019-02-08T14:50:21-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/post/20181228-freestaticsite/</loc>
+    <loc>https://www.kaikeru.com/post/20181228-freestaticsite/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/project/nihongo/</loc>
+    <loc>https://www.kaikeru.com/project/nihongo/</loc>
     <lastmod>2018-12-27T13:26:41-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/resume/</loc>
+    <loc>https://www.kaikeru.com/resume/</loc>
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/azure-pipelines/</loc>
+    <loc>https://www.kaikeru.com/tags/azure-pipelines/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/categories/</loc>
+    <loc>https://www.kaikeru.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/ci/</loc>
+    <loc>https://www.kaikeru.com/tags/ci/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/continuous-integration/</loc>
+    <loc>https://www.kaikeru.com/tags/continuous-integration/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/devops/</loc>
+    <loc>https://www.kaikeru.com/tags/devops/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/docker/</loc>
+    <loc>https://www.kaikeru.com/tags/docker/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/github/</loc>
+    <loc>https://www.kaikeru.com/tags/github/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/hugo/</loc>
+    <loc>https://www.kaikeru.com/tags/hugo/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/japanese/</loc>
+    <loc>https://www.kaikeru.com/tags/japanese/</loc>
     <lastmod>2018-12-27T13:26:41-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/jenkins/</loc>
+    <loc>https://www.kaikeru.com/tags/jenkins/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/nihongo/</loc>
+    <loc>https://www.kaikeru.com/tags/nihongo/</loc>
     <lastmod>2018-12-27T13:26:41-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/post/</loc>
+    <loc>https://www.kaikeru.com/post/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/project/</loc>
+    <loc>https://www.kaikeru.com/project/</loc>
     <lastmod>2018-12-27T13:26:41-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/</loc>
+    <loc>https://www.kaikeru.com/tags/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/</loc>
+    <loc>https://www.kaikeru.com/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.kaikeru.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
+    <loc>https://www.kaikeru.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
     <lastmod>2018-12-27T13:26:41-07:00</lastmod>
     <priority>0</priority>
   </url>
