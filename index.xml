@@ -51,24 +51,14 @@ I&amp;rsquo;m a proponent of not relying on other services to build my content i
     </item>
     
     <item>
-      <title>Nihongo Tools</title>
-      <link>https://www.kaikeru.com/project/nihongo/</link>
-      <pubDate>Thu, 27 Dec 2018 13:26:41 -0700</pubDate>
-      
-      <guid>https://www.kaikeru.com/project/nihongo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Resume</title>
       <link>https://www.kaikeru.com/resume/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.kaikeru.com/resume/</guid>
-      <description>Kyle Wagner Senior level software engineer with a specialty in DevOps.
-Work Experience Senior Software Engineer - Devops/Automation - Xpansiv November 2018 to Present
- Lead automation engineer for deployment and QA pipelines. Specialist and evangelist for testing automation. Expert in Terraform and AWS Elastic Container Services  Director of Quality Engineering / Lead DevOps Engineer - RiskSense, Inc January 2018 to October 2018
- Managed the QA team and automation team and acted as release coordinator.</description>
+      <description>Kyle Wagner Senior Software Engineer with over 5 years of DevOps and Site Reliability Engineering experience in Amazon Web Services and Docker.
+Work Experience Lead Site Reliability Engineer Xpansiv - November 2018 to Present
+ Lead automation engineer for deployment and QA pipelines. Specialist and evangelist for testing automation. Expert in Terraform and AWS Elastic Container Services  Director of Quality Engineering RiskSense, Inc - January 2018 to October 2018</description>
     </item>
     
   </channel>
