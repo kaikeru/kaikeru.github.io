@@ -6,10 +6,20 @@
     <description>Recent content in Posts on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.kaikeru.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How I learned DevOps</title>
+      <link>https://www.kaikeru.com/post/20200214-howilearneddevops/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kaikeru.com/post/20200214-howilearneddevops/</guid>
+      <description>This post is basically how I learned to DevOps. It&amp;rsquo;s not &amp;ldquo;How to Become a DevOps Engineer&amp;rdquo;. There is no one answer. I had a lot of luck and a lot of passion. Instead, this is about my career path, and how I ended up the Lead SRE of a multi-national company.
+First of all, I love CLI tools. My everyday toolkit is zsh, vim, grep, ssh, and git. I learned all these at my first job working on custom hardware.</description>
+    </item>
     
     <item>
       <title>Docker as a CI Build System</title>
