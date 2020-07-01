@@ -6,6 +6,7 @@
     <description>Recent content on kaikeru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>©️2020 - Kyle Wagner</copyright>
     <lastBuildDate>Fri, 14 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.kaikeru.com/index.xml" rel="self" type="application/rss+xml" />
@@ -27,7 +28,7 @@ First of all, I love CLI tools. My everyday toolkit is zsh, vim, grep, ssh, and 
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.kaikeru.com/reading-list/</guid>
-      <description>Software Engineering  Clean Code by Robert C. Martin Refactoring by Martin Fowler Test Driven Development: By Example by Kent Beck  DevOps  Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations by Nicole Forsgren PhD, Jez Humble, Gene Kim The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations by Gene Kim, Jez Humble, Patrick Debois, John Willis, John Allspaw The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford Site Reliability Engineering: How Google Runs Production Systems by Niall Richard Murphy, Betsy Beyer, Chris Jones, Jennifer Petoff The Site Reliability Workbook: Practical Ways to Implement SRE by Betsy Beyer, Niall Richard Murphy, David K.</description>
+      <description>Moved this to a Github Repo called reading-list. Feel free to add any to the list via pull request.</description>
     </item>
     
     <item>
